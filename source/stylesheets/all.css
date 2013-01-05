@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Lato', sans-serif; 
+  margin: 0;
+  padding: 0;
+  background: url(/images/bg-knitting.jpg) repeat-x 0 70px;
+}
+header{
+  padding-bottom: 120px;
+}
+h1, h2 {
+  font-family: 'Dawning of a New Day', cursive;
+  font-weight: normal;
+  padding: 0;
+  margin: 24px 0 6px 0;
+  line-height: 1.4em;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  float: left;
+  font-family: 'Dawning of a New Day', cursive;
+  padding: 0 12px;
+  font-size: 18px;
+  line-height: 4em;
+}
+nav a{
+  text-decoration: none;
+  color: #3c3838;
+}
+.index .nav-portfolio, .portfolio .nav-portfolio, .about .nav-about{
+  background:red;
+}
+/*
+img{
+  -moz-box-shadow: 1px 2px 6px #666;
+  -webkit-box-shadow: 1px 2px 6px #666;
+  box-shadow: 1px 2px 6px #666;
+}
+*/
+
+#content{
+  clear: both;
+}
+#content img{
+  width:100%;
+  height: auto;
+}
+p{
+  color: #3c3434;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 8px 0;
+}
+
+
+/* Home page specific */
+.index #content h1{
+  position: absolute;
+  left: -999em;
+}
+.index #content ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.index ol li{
+  width: 300px;
+  float: left;
+  height: auto;
+  margin: 12px;
+}
+.index ol a{
+  display: block;
+  text-decoration: none;
+  padding: 12px 0;
+}
+.index ol h2, .index ol p{
+  margin: 0;
+  padding: 3px 6px;
+  font-family: 'Lato', sans-serif; 
+  font-size: 18px;
+  background: yellow;
+}
+.index ol p{
+  font-size: 12px;
+}
+.index ol a:hover h2{
+  color: red;
+}
+/*.index ol a:hover img{
+  moz-box-shadow: 3px 3px 9px #666;
+  -webkit-box-shadow: 3px 3px 9px #666;
+  box-shadow: 3px 3px 9px #666;
+}*/
+footer{
+  clear:both;
+}
+footer p{
+  font-size: 12px;
+  color: #999;
+}
