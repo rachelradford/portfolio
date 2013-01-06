@@ -8,6 +8,9 @@ body {
   margin: 0;
   padding: 0;
 }
+b, strong{
+  font-weight: 700;
+}
 .portfolio, .index{
   background: url(/images/bg-knitting.jpg) repeat-x 0 70px;
 }
@@ -17,6 +20,30 @@ body {
 header{
   padding-bottom: 120px;
 }
+.logo.non-mobile{
+  position: absolute;
+  left: -999em;
+}
+.logo{
+  display: block;
+  text-decoration:none;
+  float: left;
+  font-weight: 300;
+  color: #161313;
+}
+.logo.mobile{
+  letter-spacing: -4px;
+  font-size: 36px;
+  padding-top: 12px;
+  padding-left: 6px;
+}
+.logo span{
+  color: #736464;
+}
+.index .logo{
+  cursor: default;
+}
+
 h1, h2 {
   font-family: 'Dawning of a New Day', cursive;
   font-weight: normal;
@@ -48,7 +75,9 @@ h1{
   text-transform: uppercase;
   color: #fff;
 }
-
+nav{
+  float: right;
+}
 nav ul{
   list-style: none;
   margin: 0;
@@ -58,13 +87,13 @@ nav li{
   float: left;
   font-family: 'Dawning of a New Day', cursive;
   padding: 0;
-  font-size: 20px;
+  font-size: 21px;
+  margin: 0 10px;
 }
 nav a{
   text-decoration: none;
   color: #3c3838;
-  padding: 0 12px;
-  line-height: 3em;
+  padding: 20px 12px 12px 12px;
   display: block;
 }
 .index .nav-portfolio a, .portfolio .nav-portfolio a{
@@ -194,6 +223,35 @@ footer p{
     margin: 0 auto;
     text-align: left;  
   }
+  .logo.mobile{
+    position: absolute;
+    left: -999em;
+  }
+  .logo.non-mobile{
+    position: static;
+    padding-top: 19px;
+  }
+  .logo.non-mobile p{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  .logo.non-mobile .strapline{
+    font-family: 'Dawning of a New Day', cursive;  
+    font-size: 18px;
+    color: #736464;
+    text-transform: lowercase;
+    padding-left: 3px;
+  }
+  nav li{
+    font-size: 24px;
+    margin: 0 18px;
+  }
+  nav a{
+    padding: 12px;
+  }
   #content{
     position: relative;
   }
@@ -210,7 +268,7 @@ footer p{
   .about #content p{
     margin: 0 260px;
   }
-  .portfolio h1, .portfolio p{
+  .portfolio #content h1, .portfolio #content p{
     width: 230px;
     margin-left: 730px;
   }
