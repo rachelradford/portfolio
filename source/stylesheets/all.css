@@ -295,6 +295,11 @@ footer p{
     -webkit-box-shadow: 1px 2px 6px #666;
     box-shadow: 1px 2px 6px #666;
   }
+  .portfolio .no-shadow{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
   .portfolio img.first{
     top: 0;
     left: 0;
@@ -307,6 +312,9 @@ footer p{
     left: 90px;
     top: 900px;
   }
+  .portfolio footer{ /*how do I "clear" positioned elements? */
+    display: none;
+  }
   /* Customisations for specific pages */
   .portfolio_michael-birt img.first{
     left: 20px;
@@ -318,6 +326,9 @@ footer p{
   .portfolio_michael-birt img.third{
     top: 710px;
     left: 260px;
+  }
+  .portfolio_turtle-mat img.third{
+    top: 950px;
   }
   /* Pages that have tall images or a lot of text */
   .portfolio img.second.tall{
