@@ -20,7 +20,7 @@ a:hover{
 .portfolio, .index{
   background: url(/images/bg-knitting.jpg) repeat-x 0 70px;
 }
-.about{
+.about, .error{
   background: url(/images/bg-trees.jpg) repeat-x 0 70px;  
 }
 header{
@@ -276,13 +276,13 @@ footer p{
     width: auto;
     height: auto;
   }
-  .about #content h1{
+  .about #content h1, .error #content h1{
     margin-left: 180px;
   }
-  .about #content h2, .about #content .standfirst{
+  .about #content h2, .about #content .standfirst, .error #content h2, .error #content .standfirst{
     margin: 20px 180px;
   }
-  .about #content p{
+  .about #content p, .error #content p{
     margin: 0 260px;
   }
   .portfolio #content h1, .portfolio #content p{
