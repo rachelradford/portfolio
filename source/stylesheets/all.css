@@ -43,7 +43,10 @@ header{
 .index .logo{
   cursor: default;
 }
-
+.non-mobile-only{
+  position: absolute;
+  left: -999em;
+}
 h1, h2 {
   font-family: 'Dawning of a New Day', cursive;
   font-weight: normal;
@@ -61,6 +64,7 @@ h1{
   background: url(/images/heading-tree.jpg) no-repeat left bottom;
   padding-left: 40px;
   padding-top: 30px;
+  font-size: 32px;
 }
 .standfirst{
   color: #554a4a;
@@ -88,7 +92,7 @@ nav li{
   font-family: 'Dawning of a New Day', cursive;
   padding: 0;
   font-size: 21px;
-  margin: 0 10px;
+  margin: 0 6px;
 }
 nav a{
   text-decoration: none;
@@ -104,13 +108,13 @@ nav a{
   background: #fefb00;
   color: #666;
 }
-/*
-img{
-  -moz-box-shadow: 1px 2px 6px #666;
-  -webkit-box-shadow: 1px 2px 6px #666;
-  box-shadow: 1px 2px 6px #666;
+.linkedin a{
+  text-decoration: none;
+  background: url(/images/arrow.png) 92% no-repeat, #f76900 url(/images/bg-link-yellow.jpg) no-repeat bottom left;
+  padding: 9px 56px 11px 20px;
+  text-transform: uppercase;
+  color: #161313;
 }
-*/
 
 #content{
   clear: both;
@@ -144,7 +148,14 @@ blockquote cite{
   font-family: 'Lato', sans-serif; 
   font-size: 14px;
 } 
-
+footer{
+  clear:both;
+}
+footer p{
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
 
 /* Home page specific */
 .index h1, .index .standfirst{
@@ -173,36 +184,33 @@ blockquote cite{
 .index ol a{
   display: block;
   text-decoration: none;
-  padding-bottom: 6px;
+  padding-bottom: 12px;
 }
 .index ol h2, .index ol p{
   margin: 0;
-  padding: 2px 8px;
+  padding: 2px 8px 0 12px;
   font-family: 'Lato', sans-serif; 
   font-size: 16px;
-  color: #fff;
+  color: #3C3434;
   text-transform: uppercase;
 }
 .index ol p{
   font-size: 11px;
   padding-top: 0;
+  color: #736464;
 }
-.index ol a:hover h2{
-  color: red;
+.index ol li:hover{
+  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-hover.jpg) no-repeat bottom left;
 }
-/*.index ol a:hover img{
-  moz-box-shadow: 3px 3px 9px #666;
-  -webkit-box-shadow: 3px 3px 9px #666;
-  box-shadow: 3px 3px 9px #666;
-}*/
-footer{
-  clear:both;
+.index ol li:hover:nth-of-type(odd) {
+  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label2-hover.jpg) no-repeat bottom left;
 }
-footer p{
-  font-size: 12px;
-  color: #999;
-  text-align: center;
+.index ol li:hover img{
+  moz-box-shadow: 0 0 6px #736464;
+  -webkit-box-shadow: 0 0 6px #736464;
+  box-shadow: 0 0 6px #736464;
 }
+
 @media screen and (min-width: 480px) {
   body{
     text-align: center;
@@ -251,6 +259,9 @@ footer p{
   }
   nav a{
     padding: 12px;
+  }
+  .non-mobile-only{
+    position: static;
   }
   #content{
     position: relative;
