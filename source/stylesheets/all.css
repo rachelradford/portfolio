@@ -21,15 +21,14 @@ h1, h2 {
   font-family: 'Dawning of a New Day', cursive;
   font-weight: normal;
   padding: 0;
-  margin: 24px 0 6px 0;
+  margin: 30px 0 6px 0;
   line-height: 1.4em;
   color: #161313;
 }
 h1{
   display:block;
   font-weight: normal;
-  font-size: 42px;
-  margin:42px 0 0 0;
+  line-height: 1em;
 }
 .about h2{
   background: url(/images/heading-tree.jpg) no-repeat left bottom;
@@ -37,11 +36,19 @@ h1{
   padding-top: 30px;
 }
 .standfirst{
-  font-size: 20px;
   color: #554a4a;
-  margin-bottom: 18px;
   font-weight: 300; 
+  font-size: 18px;
 }
+.more a{
+  text-decoration: none;
+  background: url(/images/arrow.png) 92% no-repeat, #f76900 url(/images/bg-link.jpg) no-repeat bottom left;
+  padding: 6px 37px 9px 12px;
+  float:right;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 nav ul{
   list-style: none;
   margin: 0;
@@ -111,6 +118,9 @@ blockquote cite{
 
 
 /* Home page specific */
+.index h1, .index .standfirst{
+  text-align: center;
+}
 .index #content ol{
   list-style: none;
   margin: 0 -9px;
@@ -164,70 +174,81 @@ footer p{
   color: #999;
   text-align: center;
 }
-
-/* move to desktop stylesheet */
-body{
-  text-align: center;
-}
-#container{
-  width: 960px;
-  margin: 0 auto;
-  text-align: left;  
-}
-#content{
-  position: relative;
-}
-#content img{
-  width: auto;
-  height: auto;
-}
-.about #content h1{
-  margin-left: 180px;
-}
-.about #content h2, .about #content .standfirst{
-  margin: 20px 180px;
-}
-.about #content p{
-  margin: 0 260px;
-}
-.portfolio h1, .portfolio p{
-  width: 230px;
-  margin-left: 730px;
-}
-.portfolio img{
-  position: absolute;
-  -moz-box-shadow: 1px 2px 6px #666;
-  -webkit-box-shadow: 1px 2px 6px #666;
-  box-shadow: 1px 2px 6px #666;
-}
-.portfolio img.first{
-  top: 0;
-  left: 0;
-}
-.portfolio img.second{
-  top: 450px;
-  left: 200px;
-}
-.portfolio img.third{
-  left: 90px;
-  top: 900px;
-}
-/* Customisations for specific pages */
-.portfolio_michael-birt img.first{
-  left: 20px;
-}
-.portfolio_michael-birt img.second{
-  top: 394px;
-  left: 0;
-}
-.portfolio_michael-birt img.third{
-  top: 710px;
-  left: 260px;
-}
-/* Pages that have tall images or a lot of text */
-.portfolio img.second.tall{
-  top: 550px;
-}
-.portfolio_marvic-textiles img.second.tall{
-  top: 37em;
+@media screen and (min-width: 480px) {
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 42px;
+    margin:42px 140px 0 140px;
+  }
+  .standfirst{
+    margin:0 140px 18px 140px;
+    font-size: 20px;
+  }
+  .index h1, .index .standfirst{
+    text-align: left;
+  }
+  #container{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;  
+  }
+  #content{
+    position: relative;
+  }
+  #content img{
+    width: auto;
+    height: auto;
+  }
+  .about #content h1{
+    margin-left: 180px;
+  }
+  .about #content h2, .about #content .standfirst{
+    margin: 20px 180px;
+  }
+  .about #content p{
+    margin: 0 260px;
+  }
+  .portfolio h1, .portfolio p{
+    width: 230px;
+    margin-left: 730px;
+  }
+  .portfolio img{
+    position: absolute;
+    -moz-box-shadow: 1px 2px 6px #666;
+    -webkit-box-shadow: 1px 2px 6px #666;
+    box-shadow: 1px 2px 6px #666;
+  }
+  .portfolio img.first{
+    top: 0;
+    left: 0;
+  }
+  .portfolio img.second{
+    top: 450px;
+    left: 200px;
+  }
+  .portfolio img.third{
+    left: 90px;
+    top: 900px;
+  }
+  /* Customisations for specific pages */
+  .portfolio_michael-birt img.first{
+    left: 20px;
+  }
+  .portfolio_michael-birt img.second{
+    top: 394px;
+    left: 0;
+  }
+  .portfolio_michael-birt img.third{
+    top: 710px;
+    left: 260px;
+  }
+  /* Pages that have tall images or a lot of text */
+  .portfolio img.second.tall{
+    top: 550px;
+  }
+  .portfolio_marvic-textiles img.second.tall{
+    top: 37em;
+  }
 }
