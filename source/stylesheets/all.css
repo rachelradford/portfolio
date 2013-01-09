@@ -232,6 +232,10 @@ footer p{
   .index h1, .index .standfirst{
     text-align: left;
   }
+  .index #content ol{
+    margin: 0 auto;
+    width: 640px;
+  }
   #container{
     text-align: left;  
   }
@@ -340,5 +344,8 @@ footer p{
   #container{
     width: 960px;
     margin: 0 auto;
+  }
+  .index #content ol{
+    width: 101%;
   }
 }
