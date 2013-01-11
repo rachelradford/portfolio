@@ -177,13 +177,12 @@ footer p{
   float: left;
   height: auto;
   margin: 12px 18px;
-  /*background: #f76900 url(/images/bg-label.jpg) no-repeat bottom left;*/
-  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label.jpg) no-repeat bottom left;
+  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-sprite.jpg) no-repeat bottom left;
 }
 .index ol li:nth-of-type(odd) {
-  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label2.jpg) no-repeat bottom left;
+  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-sprite.jpg) no-repeat bottom right;
 }
-.index ol img{
+.index #content ol img{
   display:block;
   margin-bottom: 3px;
   width: 280px;
@@ -207,10 +206,10 @@ footer p{
   color: #736464;
 }
 .index ol li:hover{
-  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-hover.jpg) no-repeat bottom left;
+  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-sprite.jpg) no-repeat 0 83px;
 }
 .index ol li:hover:nth-of-type(odd) {
-  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label2-hover.jpg) no-repeat bottom left;
+  background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-sprite.jpg) no-repeat 100% 84px;
 }
 .index ol li:hover img{
   moz-box-shadow: 0 0 6px #736464;
