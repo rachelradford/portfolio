@@ -186,6 +186,7 @@ footer p{
 .index ol img{
   display:block;
   margin-bottom: 3px;
+  width: 280px;
 }
 .index ol a{
   display: block;
@@ -348,5 +349,8 @@ footer p{
   }
   .portfolio_marvic-textiles img.second.tall{
     top: 37em;
+  }
+  .about #content p, .error #content p{
+    margin: 0 260px;
   }
 }
