@@ -157,7 +157,7 @@ blockquote cite{
 footer{
   clear:both;
 }
-footer p{
+footer p, small{
   font-size: 12px;
   color: #999;
   text-align: center;
@@ -176,7 +176,7 @@ footer p{
   width: 280px;
   float: left;
   height: auto;
-  margin: 12px 18px;
+  margin: 12px 18px 36px 18px;
   background: url(/images/arrow.png) 95% 92% no-repeat, #f76900 url(/images/bg-label-sprite.jpg) no-repeat bottom left;
 }
 .index ol li:nth-of-type(odd) {
@@ -313,7 +313,7 @@ footer p{
     box-shadow: none;
   }
   .portfolio img.first{
-    top: 0;
+    top: 6px;
     left: 0;
   }
   .portfolio img.second{
@@ -342,6 +342,25 @@ footer p{
   .portfolio_turtle-mat img.third{
     top: 950px;
   }
+  .portfolio_locaria img.second{
+  	left: 55px;
+  	top: 430px;
+  }
+  .portfolio_locaria img.third{
+	top: 1050px;
+	left: 260px;
+  }
+.portfolio_uswitch img.second{
+	left: 145px;
+}
+.portfolio_uswitch img.third{
+	top: 1200px;
+	left: 0px;
+}
+.portfolio_uswitch img.fourth{
+	top: 1600px;
+	right: 0px;
+}
   /* Pages that have tall images or a lot of text */
   .portfolio img.second.tall{
     top: 550px;
