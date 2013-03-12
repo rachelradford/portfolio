@@ -361,12 +361,9 @@ footer p, small{
 	top: 1600px;
 	right: 0px;
 }
-.portfolio_cycling-illustration img.first{
-	left: 20px;
-}
 .portfolio_cycling-illustration img.second{
-	top: 400px;
-	left: 0px;
+	top: 420px;
+	left: 150px;
 }
   /* Pages that have tall images or a lot of text */
   .portfolio img.second.tall{
