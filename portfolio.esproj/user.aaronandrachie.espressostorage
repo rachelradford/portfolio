@@ -21,7 +21,6 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/portfolio</string>
 			<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets</string>
 		</array>
 	</dict>
@@ -33,7 +32,7 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/portfolio/cycling-illustration.html.erb</string>
+				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/layouts/layout.erb</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
@@ -45,7 +44,19 @@
 			</dict>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/index.html.erb</string>
+				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/desktop.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/tablet.css</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/untitled</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

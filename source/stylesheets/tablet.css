@@ -1,0 +1,66 @@
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 42px;
+    margin:42px 140px 0 140px;
+  }
+  .standfirst{
+    margin:0 140px 18px 140px;
+    font-size: 20px;
+  }
+  .index h1, .index .standfirst{
+    text-align: left;
+  }
+  .index #content ol{
+    margin: 0 auto;
+    width: 640px;
+  }
+  #container{
+    text-align: left;  
+  }
+  .logo.mobile{
+    position: absolute;
+    left: -999em;
+  }
+  .logo.non-mobile{
+    position: static;
+    padding-top: 19px;
+  }
+  .logo.non-mobile p{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  .logo.non-mobile .strapline{
+    font-family: 'Dawning of a New Day', cursive;  
+    font-size: 18px;
+    color: #736464;
+    text-transform: lowercase;
+    padding-left: 3px;
+  }
+  nav li{
+    font-size: 24px;
+    margin: 0 18px;
+  }
+  nav a{
+    padding: 12px;
+  }
+  .non-mobile-only{
+    position: static;
+  }
+  #content{
+    position: relative;
+  }
+  .about #content h1, .error #content h1{
+    margin-left: 180px;
+  }
+  .about #content h2, .about #content .standfirst, .error #content h2, .error #content .standfirst{
+    margin: 20px 180px;
+  }
+  .about #content p, .error #content p{
+    margin: 0 180px;
+  }
+ 
