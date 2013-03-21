@@ -21,8 +21,8 @@
     <meta name="keywords" content="web design, user interface design, designer, portfolio, graphic design">
     <%= stylesheet_link_tag "normalize", "styles" %>
     <!--[if (lt IE 9)&(!IEMobile)]> 
-    	<link href="/stylesheets/tablet.css" media="screen" rel="stylesheet" type="text/css">
-    	<link href="/stylesheets/desktop.css" media="screen" rel="stylesheet" type="text/css"> 
+    	<link href="/stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css">
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <%= javascript_include_tag  "all" %>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
@@ -38,7 +38,7 @@
         <a href="/" class="logo mobile" title ="Return to the home page">
           R<span>R</span>
         </a>
-        <nav>
+        <nav class="ie-nav">
           <ul>
             <li class="nav-portfolio"><a href="/">Portfolio</a></li>
             <li class="nav-blog"><a href="/blog/">Blog</a></li>

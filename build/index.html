@@ -20,7 +20,11 @@
     <meta name="description" content="Design Portfolio of work by Rachel Radford, Web and User Interface Designer">
     <meta name="keywords" content="web design, user interface design, designer, portfolio, graphic design">
     <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if (lt IE 9)&(!IEMobile)]> 
+    	<link href="/stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css">
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <script src="/javascripts/all.js" type="text/javascript"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,400italic|Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
   </head>
@@ -35,7 +39,7 @@
         <a href="/" class="logo mobile" title ="Return to the home page">
           R<span>R</span>
         </a>
-        <nav>
+        <nav class="ie-nav">
           <ul>
             <li class="nav-portfolio"><a href="/">Portfolio</a></li>
             <li class="nav-blog"><a href="/blog/">Blog</a></li>
@@ -67,7 +71,7 @@
     <a href="/portfolio/dashboards.html">
       <img src="/images/thumb_reporting.jpg" width="280" height="200" alt="Reporting dashboards" />
       <h2>Reporting dashboards</h2>
-      <p>Design</p>
+      <p>IA and Design</p>
     </a>
   </li>
   <li>
@@ -77,6 +81,15 @@
       <p>Design and HTML/CSS</p>
     </a>
   </li>
+  <!--
+  <li>
+    <a href="/portfolio/cycling-illustration.html">
+      <img src="/images/thumb_cycling.jpg" width="280" height="200" alt="Poster illustration and design" />
+      <h2>Charity fundraising</h2>
+      <p>Illustration and Design</p>
+    </a>
+  </li>
+  -->
   <li>
     <a href="/portfolio/bannisters-farm.html">
       <img src="/images/thumb_bannisters.jpg" width="280" height="200" alt="Bannisters&rsquo; Farm" />

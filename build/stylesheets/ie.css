@@ -1,0 +1,4 @@
+/* making IE see the desktop versions of the css */
+
+@import url("/stylesheets/tablet.css");
+@import url("/stylesheets/desktop.css");

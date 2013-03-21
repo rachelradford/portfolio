@@ -1,0 +1,90 @@
+
+  #container{
+    width: 960px;
+    margin: 0 auto;
+  }
+  #content img{
+    width: auto;
+    height: auto;
+  }
+  .index #content ol{
+    width: 101%;
+  }
+  .portfolio #content h1, .portfolio #content p{
+    width: 230px;
+    margin-left: 730px;
+  }
+  .portfolio img{
+    position: absolute;
+    -moz-box-shadow: 1px 2px 6px #666;
+    -webkit-box-shadow: 1px 2px 6px #666;
+    box-shadow: 1px 2px 6px #666;
+  }
+  .portfolio .no-shadow{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .portfolio img.first{
+    top: 6px;
+    left: 0;
+  }
+  .portfolio img.second{
+    top: 450px;
+    left: 200px;
+  }
+  .portfolio img.third{
+    left: 90px;
+    top: 900px;
+  }
+  .portfolio footer{ /*how do I "clear" positioned elements? */
+    display: none;
+  }
+  /* Customisations for specific pages */
+  .portfolio_michael-birt img.first{
+    left: 20px;
+  }
+  .portfolio_michael-birt img.second{
+    top: 394px;
+    left: 0;
+  }
+  .portfolio_michael-birt img.third{
+    top: 710px;
+    left: 260px;
+  }
+  .portfolio_turtle-mat img.third{
+    top: 950px;
+  }
+  .portfolio_locaria img.second{
+  	left: 55px;
+  	top: 430px;
+  }
+  .portfolio_locaria img.third{
+	top: 1050px;
+	left: 260px;
+  }
+.portfolio_uswitch img.second{
+	left: 145px;
+}
+.portfolio_uswitch img.third{
+	top: 1200px;
+	left: 0px;
+}
+.portfolio_uswitch img.fourth{
+	top: 1600px;
+	right: 0px;
+}
+.portfolio_cycling-illustration img.second{
+	top: 420px;
+	left: 150px;
+}
+  /* Pages that have tall images or a lot of text */
+  .portfolio img.second.tall{
+    top: 550px;
+  }
+  .portfolio_marvic-textiles img.second.tall{
+    top: 37em;
+  }
+  .about #content p, .error #content p{
+    margin: 0 260px;
+  }

@@ -21,47 +21,11 @@
 	<dict>
 		<key>ExpandedURLs</key>
 		<array>
-			<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets</string>
+			<string>file://localhost/Users/aaronandrachie/Sites/portfolio</string>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.Publisher.DisclosureCollapsed</key>
 	<false/>
-	<key>com.macrabbit.Espresso.Workspace.Tabs</key>
-	<dict>
-		<key>Tabs</key>
-		<array>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/layouts/layout.erb</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/all.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/desktop.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/tablet.css</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/aaronandrachie/Sites/portfolio/source/stylesheets/untitled</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-		</array>
-	</dict>
 	<key>com.macrabbit.Espresso.WorkspaceTabs.DisclosureCollapsed</key>
 	<false/>
 </dict>
