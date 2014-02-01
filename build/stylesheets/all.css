@@ -65,6 +65,10 @@ h1{
   font-weight: normal;
   line-height: 1em;
 }
+h1 a{
+	text-decoration: none;
+	color: inherit;
+}
 .about h2{
   background: url(/images/heading-tree.jpg) no-repeat left bottom;
   padding-left: 40px;
