@@ -78,6 +78,12 @@
 	top: 420px;
 	left: 150px;
 }
+.portfolio_uswitch-brand img.second{
+	left: 240px;
+}
+.portfolio_uswitch-brand img.third{
+	left: 210px;
+}
   /* Pages that have tall images or a lot of text */
   .portfolio img.second.tall{
     top: 550px;
