@@ -84,6 +84,18 @@
 .portfolio_uswitch-brand img.third{
 	left: 210px;
 }
+.portfolio_career-spark img.second{
+	left: -20px;
+	top: 300px;
+	box-shadow:none;
+}
+.portfolio_career-spark img.third{
+	left: 311px;
+	top: 678px;
+}
+.portfolio_career-spark img.fourth{
+	top: 920px;
+}
   /* Pages that have tall images or a lot of text */
   .portfolio img.second.tall{
     top: 550px;
